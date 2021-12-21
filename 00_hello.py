@@ -6,4 +6,8 @@ class Hp():
         self.hp = self.hp - damage
 
 class Warriror():
-    def __init__(self, hp, strength):
+    def __init__(self, name, hp, strength):
+        self.name = name
+
+    def reduce_hp(self, damage):
+        self.hp = self.hp - damage
