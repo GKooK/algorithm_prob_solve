@@ -7,5 +7,3 @@ class Hp():
 
 class Warriror():
     def __init__(self, hp, strength):
-        self.hp = Hp(hp)
-        
